@@ -1,4 +1,4 @@
-import LogoImage from '../assets/img/logo.png'; // Ruta absoluta a la imagen
+import LogoImage from '../assets/img/logo.png';
 
 function Logo() {
     return (

@@ -7,6 +7,6 @@ ReactDOM.createRoot(document.querySelector('#root')).render(
   <React.StrictMode>
     <Header/>
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    <Intro/>
+    <Intro name="hola mundo" />
   </React.StrictMode>
 )
