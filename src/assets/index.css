@@ -6,3 +6,11 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    font-family: 'dosis', sans-serif;
+}
+.iconos{
+    display: flex;
+    justify-content: space-around;
+}

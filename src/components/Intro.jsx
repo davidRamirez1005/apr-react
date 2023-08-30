@@ -31,6 +31,6 @@ function Intro({name}) {
 }
 function Welcome(props) {
     return <h1>Hello, {props.nombres}</h1>;
-  }
+}
 
 export default Intro;
