@@ -1,8 +1,7 @@
 import React,{ Component } from 'react';
 import '../assets/index.css';
 
-class Header extends Component {
-    render() {
+function Header(){
     let nombre = 'jose david';
     return (
         <div>
@@ -16,6 +15,5 @@ class Header extends Component {
             </div>
         </div>
         );
-    }
 }
 export default Header;

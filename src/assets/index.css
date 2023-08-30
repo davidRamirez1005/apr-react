@@ -1,5 +1,7 @@
-@import './css/header.css';
-@import './css/intro.css';
+@import './css/header.module.css';
+@import './css/intro.module.css';
+@import './css/fetch.module.css';
+
 
 *{
     box-sizing: border-box;
@@ -13,4 +15,10 @@ body{
 .iconos{
     display: flex;
     justify-content: space-around;
+}
+.section{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 2rem;
 }

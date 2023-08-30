@@ -29,8 +29,8 @@ function Intro({name}) {
         </div>
     );
 }
-function Welcome(props) {
-    return <h1>Hello, {props.nombres}</h1>;
+function Welcome({nombres}) {
+    return <h1>Hello, {nombres}</h1>;
 }
 
 export default Intro;
